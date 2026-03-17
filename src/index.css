@@ -1,4 +1,4 @@
-* {
+﻿* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,4 +81,19 @@ html {
 
 .pulse-hover:hover {
   animation: pulse 0.5s ease-in-out;
+}
+/* Override Bootstrap text-muted */
+.text-muted {
+  color: #6c757d !important;
+}
+/* Hero section padding for desktop */
+.hero-section {
+  padding-top: 120px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .fade-in-up {
+    padding-top: 90px;
+  }
 }
